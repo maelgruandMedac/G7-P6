@@ -1,0 +1,10 @@
+package com.practica5.Jugadores;
+
+public enum EstadoTraspaso {
+    SIN_SOLICITAR,
+    SOLICITADO,
+    APROBADO_POR_ENTRENADOR,
+    APROBADO_POR_PRESIDENTE,
+    RECHAZADO_POR_ENTRENADOR,
+    RECHAZADO_POR_PRESIDENTE
+}
